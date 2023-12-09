@@ -1,15 +1,16 @@
 # React Clean Architecture
 
 <p align="center">
-<img src="./assets/images/logo.png?raw=true" style="max-width: 100%; width: 600px;" />
+<img src="./assets/images/react-clean-architecture-banner.png?raw=true" style="max-width: 100%; width: 600px;" />
 </p>
-<p align="center" style="margin-top: 10px;">A React scaffold with a clean architecture that is easy to understand.</p>
+<p align="center" style="margin-top: 10px;">A <b>React scaffold</b> with a clean architecture that is easy to understand.</p>
 
 ## Features
 
 - 📁 Clean architecture. Layered file structure
 - 🛡️ TypeScript bulletproof typing
 - ⚡ Development environment: [Vite](https://vitejs.dev/)
+- 🎨 Design System and UI: [Tailwind CSS](https://tailwindcss.com/) + [Headless UI](https://headlessui.com/)
 - 🖌️ Code format: [ESLint](https://eslint.org/)
 - 🐩 Git hooks: [Husky](https://www.npmjs.com/package/husky)
 - 💉 Dependency injection: [InversifySugar](https://github.com/carlossalasamper/inversify-sugar)
@@ -70,10 +71,22 @@ Dev
 yarn dev
 ```
 
+Tailwind dev
+
+```bash
+yarn tailwindcss:dev
+```
+
 Build
 
 ```bash
 yarn build
+```
+
+Tailwind build
+
+```bash
+yarn tailwindcss:build
 ```
 
 <hr>
