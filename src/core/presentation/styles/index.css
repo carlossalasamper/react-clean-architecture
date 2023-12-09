@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full;
+}
+
+body {
+  @apply h-full;
+}
+
+#root {
+  @apply h-full flex flex-col;
+}
+
+h1 {
+  @apply font-bold text-4xl text-center mb-6;
+}
+h2 {
+  @apply font-semibold text-3xl mb-5;
+}
+h3 {
+  @apply font-semibold text-2xl  mb-4;
+}
+h4 {
+  @apply font-semibold text-xl  mb-4;
+}
+h5 {
+  @apply font-semibold text-lg  mb-3;
+}
+h6 {
+  @apply font-semibold text-base mb-2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply tracking-wide;
+}

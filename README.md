@@ -9,10 +9,11 @@
 
 - 📁 Clean architecture. Layered file structure
 - 🛡️ TypeScript bulletproof typing
+- ⚡ Development environment: [Vite](https://vitejs.dev/)
 - 🖌️ Code format: [ESLint](https://eslint.org/)
 - 🐩 Git hooks: [Husky](https://www.npmjs.com/package/husky)
 - 💉 Dependency injection: [InversifySugar](https://github.com/carlossalasamper/inversify-sugar)
-- 🌍 I18n: [i18n-js](https://www.npmjs.com/package/i18n-js)
+- 🌍 I18n: [i18next](https://www.i18next.com)
 - 🚢 Navigation: [React Router](https://reactrouter.com/en/main)
 - 🧰 State Manager: [Mobx](https://mobx.js.org/)
 
@@ -69,10 +70,10 @@ Dev
 yarn dev
 ```
 
-Production
+Build
 
 ```bash
-yarn start
+yarn build
 ```
 
 <hr>
