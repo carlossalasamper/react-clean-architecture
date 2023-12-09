@@ -9,12 +9,6 @@ const core = {
       message: "Page not found",
       backHomeButton: "Back to home",
     },
-    HomePage: {
-      head: {
-        title: "Home",
-      },
-      title: "Home",
-    },
   },
   components: {},
   errors: {
