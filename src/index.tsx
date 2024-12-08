@@ -6,12 +6,12 @@ import "./core/presentation/i18n/index";
 import AppModule from "./AppModule";
 import reportWebVitals from "./reportWebVitals";
 import { HelmetProvider } from "react-helmet-async";
-import { InversifySugar } from "inversify-sugar";
+import { Inversiland } from "inversiland";
 import App from "./core/presentation/App";
 
-InversifySugar.options.debug = import.meta.env.DEV;
-InversifySugar.options.defaultScope = "Singleton";
-InversifySugar.run(AppModule);
+Inversiland.options.logLevel = import.meta.env.DEV ? "debug" : "info";
+Inversiland.options.defaultScope = "Singleton";
+Inversiland.run(AppModule);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

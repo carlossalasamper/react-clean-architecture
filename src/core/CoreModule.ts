@@ -1,7 +1,7 @@
 import EnvToken from "./domain/EnvToken";
 import HttpClient from "./infrastructure/implementations/HttpClient";
 import { IHttpClientToken } from "./domain/specifications/IHttpClient";
-import { module } from "inversify-sugar";
+import { module } from "inversiland";
 import { ToastService } from "./presentation/services/ToastService";
 
 @module({

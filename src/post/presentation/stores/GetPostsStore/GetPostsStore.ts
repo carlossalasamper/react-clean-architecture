@@ -1,4 +1,4 @@
-import { injectable, provided } from "inversify-sugar";
+import { injectable, inject } from "inversiland";
 import { makeAutoObservable } from "mobx";
 import { ToastService } from "@/core/presentation/services/ToastService";
 import GetPostsStoreState from "../../types/GetPostsStoreState";
@@ -17,8 +17,8 @@ export class GetPostsStore implements GetPostsStoreState {
   };
 
   constructor(
-    @provided(ToastService) private readonly toastService: ToastService,
-    @provided(GetPostsUseCase)
+    @inject(ToastService) private readonly toastService: ToastService,
+    @inject(GetPostsUseCase)
     private readonly getPostsUseCase: GetPostsUseCase
   ) {
     makeAutoObservable(this);

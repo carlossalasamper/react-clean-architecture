@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
-import { provided, injectable } from "inversify-sugar";
+import { inject, injectable } from "inversiland";
 import EnvToken from "../../domain/EnvToken";
 import IHttpClient from "../../domain/specifications/IHttpClient";
 
@@ -7,7 +7,7 @@ import IHttpClient from "../../domain/specifications/IHttpClient";
 class HttpClient implements IHttpClient {
   private axios: typeof axios;
 
-  constructor(@provided(EnvToken) private readonly env: ImportMetaEnv) {
+  constructor(@inject(EnvToken) private readonly env: ImportMetaEnv) {
     this.axios = axios;
 
     axios.interceptors.request.use((requestConfig) => {

@@ -13,7 +13,7 @@
 - 🎨 Design System and UI: [Tailwind CSS](https://tailwindcss.com/) + [Headless UI](https://headlessui.com/)
 - 🖌️ Code format: [ESLint](https://eslint.org/)
 - 🐩 Git hooks: [Husky](https://www.npmjs.com/package/husky)
-- 💉 Dependency injection: [InversifySugar](https://github.com/carlossalasamper/inversify-sugar)
+- 💉 Dependency injection: [Inversiland](https://github.com/inversiland/inversiland)
 - 🌍 I18n: [i18next](https://www.i18next.com)
 - 🚢 Navigation: [React Router](https://reactrouter.com/en/main)
 - 🧰 State Manager: [Mobx](https://mobx.js.org/)

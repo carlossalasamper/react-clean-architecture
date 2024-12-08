@@ -1,4 +1,4 @@
-import { injectable } from "inversify-sugar";
+import { injectable } from "inversiland";
 import { toast } from "react-toastify";
 
 @injectable()

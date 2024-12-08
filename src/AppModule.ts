@@ -1,4 +1,4 @@
-import { module } from "inversify-sugar";
+import { module } from "inversiland";
 import CoreModule from "./core/CoreModule";
 import { PostModule } from "./post/PostModule";
 
