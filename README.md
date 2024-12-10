@@ -93,7 +93,7 @@ yarn tailwindcss:build
 
 ## Support the project
 
-<p align="center">☕️ Buy me a coffee so the open source party never ends.</p>
+<p align="center">☕️ Buy me a coffee so the open source party will never end.</p>
 
 <p align="center"><a href="https://www.buymeacoffee.com/carlossala95" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></p>
 
